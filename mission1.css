@@ -1,0 +1,22 @@
+.main{
+	border:solid 1px black;
+	margin:0em auto;
+	padding: 0%;
+	width:99%;
+	padding-top:99%;
+}
+.middle{
+	position:relative;
+	top:0em;
+	left:0em;
+	margin-top:-100%;
+}
+
+.box{
+	width:31.33%;
+	padding-top:31.33%;
+	background:#FFA600;
+	float:left;
+	margin:1%;
+	border-radius:0.5em;
+}
