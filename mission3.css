@@ -1,38 +1,41 @@
 .main{
-    background: url("./images/task3.jpg");
+    background: #68CDD5;
     width:100%;
-    padding-top: 6%;
-    min-width: 320px;
+    /*padding-top: 20px;
+    min-width: 320px;*/
 }
 .backspace{
-    background: url("./images/task3_03.png");
-    width: 3.375rem;
-    height: 3.375rem;
-    background-size: 3.375rem;
-    float: left;
-    margin-left: 3%;
-    margin-top: -5%;
+    background: url("./images/task3_03.png")no-repeat;
+    width: 90px;
+    height: 90px;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 30px;
+    top: 30px;
 }
 .logo-container{
-    padding-top:30%;
+    padding-top: 300px;
     width: 100%;
 }
 .logo{
-    background: url("./images/task3_07.png");
-    margin:0 auto;
-    margin-top: -15%;
+    background: url("images/task3_07.png")no-repeat;
+    background-size: 100% 100%;
     width: 181px;
     height: 70px;
+    margin:0 auto;
+    margin-top: -15px;
 }
 .text-container{
     padding-top: 5%;
     width: 100%;
+    text-align: center;
 }
 .text{
     margin-top: -25%;
     margin:0 auto;
     padding-left: 8px;
     width: 50%;
+    text-align: left;
 }
 p{
     display: inline-block;
