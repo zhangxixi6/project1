@@ -6,12 +6,12 @@
 .header{
     background:#5AC0CE ;
     width: 100%;
-    height: 100px;
+    height: 6.25rem;
 
 }
 .hleft,.hcenter,.hright{
     float: left;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 .hleft{
     width: 20%;
@@ -24,19 +24,19 @@
 }
 p{
     font-family: "微软雅黑";
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
     color: #FFFFFF;
 }
 p.login{
-    font-size: 25px;
+    font-size: 1.56rem;
     font-weight: 500;
 }
 .container{
     background: #FFFFFF;
     width: 100%;
-    height: 120px;
-    margin-top: 20px;
+    height: 7.5rem;
+    margin-top: 1.25rem;
     vertical-align: middle;
 }
 div.img1{
@@ -46,57 +46,57 @@ div.img2{
     background: url("images/pwd.png")no-repeat;
 }
 div.img1,div.img2{
-    width: 90px;
-    height: 90px;
+    width: 5.625rem;
+    height: 5.625rem;
     background-size: 100% 100%;
     position: absolute;
-    left: 10px;
-    margin: 5px;
+    left: 0.625rem;
+    margin: 0.31rem;
 }
 
 div.img{
-    width: 2px;
-    height: 100px;
+    width: 0.125rem;
+    height: 6.25rem;
     position: absolute;
-    left: 110px;
-    margin: 5px;
-    margin-top: 8px;
+    left: 6.875rem;
+    margin: 0.31rem;
+    margin-top: 0.5rem;
     background-color:#EAEAEA;
 }
 div.username,div.password{
     width: 80%;
-    height: 120px;
-    margin-left: 15px;
-    padding: 5px;
+    height: 7.5rem;
+    margin-left: 0.94rem;
+    padding: 0.31rem;
     position: absolute;
-    left: 120px;
+    left: 7.5rem;
 }
 .usr{
-    border: 0px;
+    border: 0;
     outline: none;
     width: 98%;
     height: 80%;
-    font-size: 30px;
+    font-size: 1.875rem;
     background: transparent;
 }
 .click{
     background: #5AC0CE;
     width:100%;
-    margin-top: 20px;
-    height: 120px;
+    margin-top: 1.25rem;
+    height: 7.5rem;
 }
-p.log{
+p.log {
     text-align: center;
-    margin: 0px;
+    margin: 0;
     height: 100%;
-    padding-top: 35px;
-    font-size: 25px;
+    padding-top: 2.2rem;
+    font-size: 1.56rem;
 }
 .forget{
     float: right;
-    margin: 10px;
-    margin-right: 15px;
+    margin: 0.625rem;
+    margin-right:0.94rem;
 }
 a{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
