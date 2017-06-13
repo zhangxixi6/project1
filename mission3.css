@@ -1,65 +1,46 @@
 .main{
     background: #68CDD5;
     width:100%;
-    /*padding-top: 20px;
-    min-width: 320px;*/
 }
 .backspace{
-    background: url("./images/task3_03.png")no-repeat;
-    width: 5.6rem;
-    height: 5.6rem;
-    background-size: 100% 100%;
     position: absolute;
     left: 1.8rem;
     top: 1.8rem;
 }
-.logo-container{
-    padding-top: 18rem;
+.logo-container {
+    padding-top: 10rem;
     width: 100%;
 }
 .logo{
-    background: url("images/task3_07.png")no-repeat;
-    background-size: 100% 100%;
-    width: 11.3rem;
-    height: 4.4rem;
+    align-self: center;
+    display: block;
     margin:0 auto;
-    margin-top: -1rem;
 }
 .text-container{
-    padding-top: 5%;
+    margin-top: 6rem;
     width: 100%;
-    text-align: center;
-}
-.text{
-    margin-top: -25%;
-    margin:0 auto;
-    padding-left: 0.5rem;
-    width: 50%;
-    text-align: left;
 }
 p{
-    display: inline-block;
-    font-size: 1rem;
+    margin:0 auto;
+    font-size: 1.2rem;
     font-family:"微软雅黑 Light";
     color: white;
+    width: 70%;
+    text-align: justify;
 }
 .button-container{
-    padding-top: 50%;
+    padding-top: 30rem;
     width: 100%;
 }
-.button1{
-    background: url("./images/task3_11.png");
-    float: left;
-    margin-left:10%;
-    margin-top: -40%;
-    width: 7.6rem;
-    height: 8.1rem;
+.btn1{
+    display: block;
+    margin-top: -20rem;
+    position: absolute;
+    left:15% ;
 }
-.button2{
-    background: url("./images/task3_14.png");
-    float: right;
-    margin-right: 10%;
-    margin-top: -40%;
-    width: 6.5rem;
-    height: 7.8rem;
+.btn2{
+    display: block;
+    margin-top: -20rem;
+    position: absolute;
+    right: 15%;
 }
