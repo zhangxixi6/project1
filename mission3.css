@@ -1,3 +1,7 @@
+body{
+    background: #68CDD5;
+    margin: 0;
+}
 .main{
     background: #68CDD5;
     width:100%;
@@ -8,7 +12,7 @@
     top: 1.8rem;
 }
 .logo-container {
-    padding-top: 10rem;
+    padding-top: 8rem;
     width: 100%;
 }
 .logo{
@@ -17,16 +21,17 @@
     margin:0 auto;
 }
 .text-container{
-    margin-top: 6rem;
+    margin-top: 7rem;
     width: 100%;
 }
 p{
     margin:0 auto;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-family:"微软雅黑 Light";
     color: white;
     width: 70%;
     text-align: justify;
+    line-height: 3.4rem;
 }
 .button-container{
     padding-top: 30rem;
@@ -38,21 +43,22 @@ p{
     position: absolute;
 }
 .btn1{
-    left:15% ;
+    left:20% ;
 }
 .btn2{
-    right: 15%;
+    right: 20%;
 }
 .btn-word1,.btn-word2{
     position: absolute;
     margin-top: -14rem;
+    font-size: 1.4rem;
     display: block;
-    width:5.5rem;
+    width:6rem;
     text-align: center;
 }
 .btn-word1{
-    left:15%;
+    left:19%;
 }
 .btn-word2{
-    right:15%;
+    right:19%;
 }
