@@ -32,15 +32,27 @@ p{
     padding-top: 30rem;
     width: 100%;
 }
-.btn1{
+.btn1,.btn2{
     display: block;
     margin-top: -20rem;
     position: absolute;
+}
+.btn1{
     left:15% ;
 }
 .btn2{
-    display: block;
-    margin-top: -20rem;
-    position: absolute;
     right: 15%;
+}
+.btn-word1,.btn-word2{
+    position: absolute;
+    margin-top: -14rem;
+    display: block;
+    width:5.5rem;
+    text-align: center;
+}
+.btn-word1{
+    left:15%;
+}
+.btn-word2{
+    right:15%;
 }
