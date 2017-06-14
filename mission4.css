@@ -1,8 +1,12 @@
-.body{
-    background: #EFF0F4;
+body{
+    height: 100%;
+    overflow: hidden;
+    background-color: #EFF0F4;
+}
+/*.main{
     width: 100%;
     height: 100%;
-}
+}*/
 .header{
     background:#5AC0CE ;
     width: 100%;
@@ -37,7 +41,6 @@ p.login{
     width: 100%;
     height: 7.5rem;
     margin-top: 1.25rem;
-    vertical-align: middle;
 }
 div.img1{
     background: url("images/login.png")no-repeat;
@@ -50,8 +53,9 @@ div.img1,div.img2{
     height: 5.625rem;
     background-size: 100% 100%;
     position: absolute;
-    left: 0.625rem;
-    margin: 0.31rem;
+    left: 0.3rem;
+    margin: 0.4rem;
+    margin-top: 0.6rem;
 }
 
 div.img{
@@ -64,12 +68,12 @@ div.img{
     background-color:#EAEAEA;
 }
 div.username,div.password{
-    width: 80%;
+    width: 77%;
     height: 7.5rem;
     margin-left: 0.94rem;
-    padding: 0.31rem;
+    margin-top: 0.5rem;
     position: absolute;
-    left: 7.5rem;
+    left: 8.5rem;
 }
 .usr{
     border: none;
@@ -95,13 +99,6 @@ div.username,div.password{
     font-family: "微软雅黑";
     color: #FFFFFF;
 }
-/*p.log {
-    text-align: center;
-    margin: 0;
-    height: 100%;
-    padding-top: 2.2rem;
-    font-size: 1.56rem;
-}*/
 .forget{
     float: right;
     margin: 0.625rem;
