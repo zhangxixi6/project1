@@ -37,6 +37,9 @@ p{
     margin-top: -20rem;
     position: absolute;
 }
+.btn-container{
+    width: 5.5rem;
+}
 .btn1{
     left:15% ;
 }
