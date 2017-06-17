@@ -38,18 +38,21 @@ p{
 }
 .btn1,.btn2{
     display: block;
+    margin:0 auto;
+}
+.btn-container1,.btn-container2{
     margin-top: -20rem;
+    width: 6rem;
     position: absolute;
+
 }
-.btn-container{
-    width: 5.5rem;
+.btn-container1{
+    left: 19%;
 }
-.btn1{
-    left:20% ;
+.btn-container2{
+    right: 19%;
 }
-.btn2{
-    right: 20%;
-}
+
 .btn-word1,.btn-word2{
     position: absolute;
     margin-top: -14rem;
