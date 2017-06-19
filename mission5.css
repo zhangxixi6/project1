@@ -31,8 +31,8 @@ hr{
 }
 .head-text{
     margin-left: -4rem;
-    font-family: "微软雅黑 Light";
-    font-size: 2.2rem;
+    font-family: "微软雅黑";
+    font-size: 2rem;
     color: #FFFFFF;
     display: block;
 }
@@ -40,6 +40,7 @@ hr{
 .main-container{
     padding-top: 5.31rem;
     width: 100%;
+    padding-bottom: 7.5rem;
 }
 .profile{
     position: relative;
@@ -79,10 +80,10 @@ hr{
     line-height: 3rem;
 }
 .name-text{
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 .position-text{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     display: inline-block;
     margin-left: 1rem;
 }
@@ -154,4 +155,45 @@ hr{
 }
 #last{
     height: auto;
+}
+/*底部*/
+.foot{
+    width:100%;
+    background:#FFFFFF;
+    position: fixed;
+    bottom: 0rem;
+    left: 0rem;           /*让footer始终显示在底部*/
+    display: flex;
+    align-items: center;
+    z-index: 99999;
+    height: 7.5rem;
+}
+.message,.call{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.message{
+    background: url("images/task5/call.png")no-repeat;
+    background-size: 100% 100%;
+    height: 5.5rem;
+    margin-left: 1.5rem;
+    margin-right: 0.75rem;
+}
+.call{
+    background: url("images/task5/button.png")no-repeat;
+    background-size: 100% 100%;
+    height: 5.5rem;
+    margin-left: 0.75rem;
+    margin-right: 1.5rem;
+}
+.message-text,.call-text{
+    font-size: 1.8rem;
+}
+.message-text{
+    color: #5AC0CE;
+}
+.call-text{
+    color: #FFFFFF;
 }
