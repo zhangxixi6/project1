@@ -10,26 +10,44 @@ body{
 
 }
 .hleft,.hcenter,.hright{
-    float: left;
+    /*float: left;*/
     margin-top: 2rem;
+    text-align: center;
 }
 .hleft{
     width: 20%;
+    height: 5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .hcenter{
     width: 60%;
+    height: 5.45rem;
+    margin: 0 auto;
+    padding-top: 1.7rem;
+    position: absolute;
+    left: 20%;
+    top: 0;
 }
 .hright{
     width: 20%;
+    height: 5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.login,.signup,.close{
+    text-align: center;
+    color: #FFFFFF;
 }
 p{
-    font-family: "微软雅黑";
     font-size: 1.3rem;
     text-align: center;
     color: #FFFFFF;
     margin-top: 0rem;
 }
-p.login{
+.login{
     font-size: 1.56rem;
     font-weight: 400;
 }
