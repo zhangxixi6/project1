@@ -89,7 +89,7 @@ div.username,div.password{
     margin-top: 1.25rem;
     height: 7.5rem;
 }
-.button{
+/*.button{
     border: none;
     display: block;
     width: 100%;
@@ -98,7 +98,7 @@ div.username,div.password{
     font-size: 1.56rem;
     font-family: "微软雅黑";
     color: #FFFFFF;
-}
+}*/
 .btn{
     width: 100%;
     background: #5AC0CE;
