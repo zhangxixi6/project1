@@ -67,6 +67,9 @@ hr{
     display: flex;
     align-items: center;
 }
+.name-age{
+    width: 24rem;
+}
 .position-inner{
     display: flex;
     align-items: center;
@@ -74,13 +77,17 @@ hr{
 .position-img{
     display: inline;
 }
-.name-text,.position-text{
+.name-text,.position-text,.age-text{
     margin: 0;
     color: #FFFFFF;
     line-height: 3rem;
 }
-.name-text{
+.name-text,.age-text{
     font-size: 2rem;
+    display: inline;
+}
+.age-text{
+    margin-left: 1.5rem;
 }
 .position-text{
     font-size: 1.6rem;
@@ -173,23 +180,31 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .message{
-    background: url("images/task5/call.png")no-repeat;
-    background-size: 100% 100%;
+    background: #FFFFFF;
+    border-color:  #5AC0CE;
+    border-radius: 1rem;
+    outline: none;
+    border-style: solid;
     height: 5.5rem;
     margin-left: 1.5rem;
     margin-right: 0.75rem;
 }
 .call{
-    background: url("images/task5/button.png")no-repeat;
-    background-size: 100% 100%;
+    background:#5AC0CE;
+    border-radius: 1rem;
+    border-color: #5AC0CE;
+    outline: none;
+    border-style: solid;
     height: 5.5rem;
     margin-left: 0.75rem;
     margin-right: 1.5rem;
 }
 .message-text,.call-text{
     font-size: 1.8rem;
+    margin: 0;
 }
 .message-text{
     color: #5AC0CE;
