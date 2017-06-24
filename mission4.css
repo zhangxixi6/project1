@@ -99,6 +99,14 @@ div.username,div.password{
     font-family: "微软雅黑";
     color: #FFFFFF;
 }
+.btn{
+    width: 100%;
+    background: #5AC0CE;
+    height:7.5rem ;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.56rem;
+}
 .forget{
     float: right;
     margin: 0.625rem;
