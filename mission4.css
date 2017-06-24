@@ -3,75 +3,82 @@ body{
     overflow: hidden;
     background-color: #EFF0F4;
 }
-/*.main{
-    width: 100%;
-    height: 100%;
-}*/
 .header{
     background:#5AC0CE ;
     width: 100%;
-    height: 6.25rem;
+    height: 5.45rem;
 
 }
 .hleft,.hcenter,.hright{
-    float: left;
-    margin-top: 0.625rem;
+    /*float: left;*/
+    margin-top: 2rem;
+    text-align: center;
 }
 .hleft{
     width: 20%;
+    height: 5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .hcenter{
     width: 60%;
+    height: 5.45rem;
+    margin: 0 auto;
+    padding-top: 1.7rem;
+    position: absolute;
+    left: 20%;
+    top: 0;
 }
 .hright{
     width: 20%;
+    height: 5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
-p{
-    font-family: "微软雅黑";
-    font-size: 1.25rem;
+.login,.signup,.close{
     text-align: center;
     color: #FFFFFF;
 }
-p.login{
+p{
+    font-size: 1.3rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0rem;
+}
+.login{
     font-size: 1.56rem;
-    font-weight: 500;
+    font-weight: 400;
 }
 .container{
     background: #FFFFFF;
     width: 100%;
-    height: 7.5rem;
-    margin-top: 1.25rem;
+    height: 6.25rem;
+    margin-top: 1.125rem;
 }
-div.img1{
-    background: url("images/login.png")no-repeat;
-}
-div.img2{
-    background: url("images/pwd.png")no-repeat;
-}
-div.img1,div.img2{
+div.img1,div.img2 {
     width: 5.625rem;
     height: 5.625rem;
     background-size: 100% 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1.4rem;
     position: absolute;
-    left: 0.3rem;
-    margin: 0.4rem;
-    margin-top: 0.6rem;
+    left: 0.7rem;
 }
-
 div.img{
     width: 0.125rem;
     height: 6.25rem;
     position: absolute;
     left: 6.875rem;
-    margin: 0.31rem;
-    margin-top: 0.5rem;
-    background-color:#EAEAEA;
+    margin-top: 1.4rem;
 }
 div.username,div.password{
     width: 77%;
     height: 7.5rem;
     margin-left: 0.94rem;
-    margin-top: 0.5rem;
+    margin-top: 0.1rem;
     position: absolute;
     left: 8.5rem;
 }
@@ -80,20 +87,20 @@ div.username,div.password{
     outline: none;
     width: 98%;
     height: 80%;
-    font-size: 1.875rem;
+    font-size: 1.3rem;
     background: transparent;
 }
 .click{
     background: #5AC0CE;
     width:100%;
     margin-top: 1.25rem;
-    height: 7.5rem;
+    height: 6.25rem;
 }
 /*.button{
     border: none;
     display: block;
     width: 100%;
-    height: 7.5rem;
+    height: 6.25rem;
     background: transparent;
     font-size: 1.56rem;
     font-family: "微软雅黑";
@@ -108,10 +115,15 @@ div.username,div.password{
     font-size: 1.56rem;
 }
 .forget{
-    float: right;
+    position: absolute;
+    right: 0.7rem;
     margin: 0.625rem;
     margin-right:0.94rem;
 }
 a{
-    font-size: 1.25rem;
+    font-size: 1.3rem;
+    color: #5AC0CE;
+}
+a:link{
+    text-decoration: none;
 }
